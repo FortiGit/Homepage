@@ -1,5 +1,5 @@
 body{
-    background-color:lightgreen;
+    background-color:pink;
     width: 60%;
 }
 .home{
@@ -7,7 +7,7 @@ vertical-align: middle;
 }
 .appform{
     width:200px;
-background-color: green;
+background-color: plum;
 text-align: center;
 font-size: 2em;
 border-radius: 20px;
