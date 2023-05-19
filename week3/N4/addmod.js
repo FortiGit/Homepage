@@ -14,4 +14,3 @@ exports.add = function (req,res,vals) {
     res.write("</html>");
     return res.end();
     };
-
