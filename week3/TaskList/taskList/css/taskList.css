@@ -1,0 +1,29 @@
+body{
+    /* user-select: none;
+    overflow-y: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63, 137, 164);   
+   }
+   
+   .first{
+        column-count: 2;
+       width: 550px;
+       /* margin-top: 1%; */
+       border: 2px solid rgb(200, 147, 233);
+       padding: 70px;
+       background-color: rgb(172, 174, 67);
+       
+   }
+   .valid{
+    text-align:end;
+    margin-left: 5px;
+    display: inline;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+
+  }
+   

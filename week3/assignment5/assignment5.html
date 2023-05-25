@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Select the span element
+      var spanElement = $('.ancestors span');
+
+      // Change the color of parent and grandparent list items to green
+      spanElement.parent().closest('li').css('color', 'green');
+      spanElement.parent().closest('ul').parent().closest('li').css('color', 'green');
+    });
+  </script>
+</head>
+<body>
+  <div class="ancestors">
+    <div> (great-grandparent)
+      <ul> (grandparent)
+        <li> (direct parent)
+          <span>some text</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+In the code above, we first select the span element using the class selector $('.ancestors span'). Then, we use the parent() method to navigate to the direct parent (li) and the closest() method to find the grandparent (ul) and its parent (li). Finally, we use the css() method to change the color property of the list items to green.
+
+
+
+
+
+
